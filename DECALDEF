@@ -1,0 +1,19 @@
+decal Gould 1
+{
+    pic DECAL_GOULD
+}
+
+decal O_Rourke 2
+{
+    pic DECAL_O_ROURKE
+}
+
+decal Eldredge 3
+{
+    pic DECAL_ELDREDGE
+}
+
+decal Darwin 4
+{
+    pic DECAL_DARWIN
+}

@@ -1,0 +1,46 @@
+#library "GAG"
+#include "zcommon.acs"
+#import "CONSTANT.acs"
+#import "ENV.acs"
+
+// Scripts
+
+Script "GAG_ARK" (int tag, int oceanSector, int sector3D)
+{
+    int sector3DZDelta = GetSectorCeilingZ(sector3D, 0, 0) - GetSectorFloorZ(oceanSector, 0, 0) + 1;
+    Floor_MoveToValue(tag, NORMAL, 128, 1);
+    FloorAndCeiling_LowerByValue(sector3D, NORMAL, sector3DZDelta);
+    //TagWait(tag);
+    ChangeFloor(tag, "FWATER1");
+}
+
+Script "GAG_DSAREA" (int volume, int location)
+{
+    AmbientSound(DSAREA, volume);
+    switch (location)
+    {
+        case CATHEDRAL_ID:
+            HudMessage(s:CATHEDRAL_NAME; HUDMSG_FADEINOUT, 0, CR_UNTRANSLATED, 0.5, 0.35, DSAREA_HOLDTIME, DSAREA_FADETIME, DSAREA_FADETIME);
+            break;
+        
+        case MINE_ID:
+            HudMessage(s:MINE_NAME; HUDMSG_FADEINOUT, 0, CR_UNTRANSLATED, 0.5, 0.35, DSAREA_HOLDTIME, DSAREA_FADETIME, DSAREA_FADETIME);
+            break;
+    }
+}
+
+Script "GAG_GOULD" (void)
+{
+    HudMessage(s:"In Loving Memory: Gould\nMay his quotes serve a greater purpose"; HUDMSG_PLAIN, 0, CR_UNTRANSLATED, 0.5, 0.35, 3.0);
+}
+
+Script "GAG_DAPPER" (void)
+{
+    ACS_NamedExecute("MUSIC_CROSSFADE", -1);
+    Floor_LowerToNearest(0, NORMAL);
+    Delay(70);
+    AmbientSound(DAPPERTHEME, 100);
+    Delay(105);
+    Thing_Activate(3);
+    Thing_Activate(4);
+}

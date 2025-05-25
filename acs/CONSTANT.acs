@@ -1,0 +1,35 @@
+#library "CONSTANT"
+#include "zcommon.acs"
+
+// Rates
+
+#libdefine NORMAL 8
+#libdefine DSAREA_FADETIME 0.5
+#libdefine DSAREA_HOLDTIME 2.0
+#libdefine MUSIC_CROSSFADETIME 0.025
+
+// Music ID
+
+#libdefine NONE -1
+#libdefine CATMUS_ID 1
+#libdefine BENTSONG_ID 2
+
+// Music name string
+
+#libdefine CATMUS "CATMUS"
+#libdefine BENTSONG "BENTSONG"
+
+// Location IDs
+
+#libdefine CATHEDRAL_ID 1
+#libdefine MINE_ID 2
+
+// Location name strings
+
+#libdefine CATHEDRAL_NAME "HOVIND CATHEDRAL"
+#libdefine MINE_NAME "QUOTE MINES"
+
+// Sound strings
+
+#libdefine DAPPERTHEME "DAPPERTHEME"
+#libdefine DSAREA "DSAREA"

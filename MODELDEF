@@ -1,0 +1,19 @@
+Model DapperDoorL
+{
+   Path "models/dapperdoorl"
+   Model 0 "DAPPERDOORL.obj"
+   Skin 0 "DAPPERDOORL"
+   //Skin 1 "stock/T2STP01"
+
+   FrameIndex DDLL A 0 0
+}
+
+Model DapperDoorR
+{
+   Path "models/dapperdoorr"
+   Model 0 "DAPPERDOORR.obj"
+   Skin 0 "DAPPERDOORR"
+   //Skin 1 "stock/T2STP01"
+
+   FrameIndex DDRR A 0 0
+}

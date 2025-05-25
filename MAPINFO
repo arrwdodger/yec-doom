@@ -1,0 +1,23 @@
+map MAP01 "Creatia"
+{
+    Sky1 = "RSKY1"
+    Music = "D_DEAD"
+}
+
+episode MAP01
+{
+    Name = "YEC DOOM"
+    NoSkillMenu
+}
+
+skill MyUltraViolence
+{
+    SpawnFilter = hard
+    DefaultSkill
+}
+
+DoomEdNums
+{
+    13501 = DapperDoorL
+    13502 = DapperDoorR
+}
