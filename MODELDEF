@@ -1,19 +1,19 @@
 Model DapperDoorL
 {
-   Path "models/dapperdoorl"
+   Path "models/dapperdoor"
    Model 0 "DAPPERDOORL.obj"
-   Skin 0 "DAPPERDOORL"
-   //Skin 1 "stock/T2STP01"
+   Skin 0 "DAPPERDOORL.png"
+   Skin 1 "DAPPERDOORTRIM.png"
 
    FrameIndex DDLL A 0 0
 }
 
 Model DapperDoorR
 {
-   Path "models/dapperdoorr"
+   Path "models/dapperdoor"
    Model 0 "DAPPERDOORR.obj"
-   Skin 0 "DAPPERDOORR"
-   //Skin 1 "stock/T2STP01"
+   Skin 0 "DAPPERDOORR.png"
+   Skin 1 "DAPPERDOORTRIM.png"
 
    FrameIndex DDRR A 0 0
 }
