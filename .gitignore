@@ -1,3 +1,5 @@
-/maps/MAP01.wad.*
+/maps/*
+!/maps/MAP01.wad
+!/maps/MAP01.dbs
 /stock/
 /stock/*
