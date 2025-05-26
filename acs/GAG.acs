@@ -1,7 +1,7 @@
 #library "GAG"
-#include "zcommon.acs"
 #import "CONSTANT.acs"
 #import "ENV.acs"
+#include "zcommon.acs"
 
 // Scripts
 
@@ -34,7 +34,7 @@ Script "GAG_GOULD" (void)
     HudMessage(s:"In Loving Memory: Gould\nMay his quotes serve a greater purpose"; HUDMSG_PLAIN, 0, CR_UNTRANSLATED, 0.5, 0.35, 3.0);
 }
 
-Script "GAG_DAPPER" (void)
+Script "GAG_DAPPER" (int lineID)
 {
     ACS_NamedExecute("MUSIC_CROSSFADE", -1);
     Floor_LowerToNearest(0, NORMAL);
@@ -43,4 +43,5 @@ Script "GAG_DAPPER" (void)
     Delay(105);
     Thing_Activate(3);
     Thing_Activate(4);
+    Line_SetBlocking(lineID, 0, 1);
 }
