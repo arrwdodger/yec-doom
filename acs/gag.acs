@@ -1,9 +1,9 @@
-//#include "constant.acs"
 //#include "zcommon.acs"
+//#include "constant.acs"
 
 // Scripts
 
-Script "GAG_ARK" (int tag, int oceanSector, int sector3D)
+Script "GAG_ARK" (int tag, int oceanSector, int sector3D) // This script is used to sink the ark
 {
     int sector3DZDelta = GetSectorCeilingZ(sector3D, 0, 0) - GetSectorFloorZ(oceanSector, 0, 0) + 1;
     Floor_MoveToValue(tag, NORMAL, 128, 1);
@@ -12,7 +12,7 @@ Script "GAG_ARK" (int tag, int oceanSector, int sector3D)
     ChangeFloor(tag, "FWATER1");
 }
 
-Script "GAG_DSAREA" (int volume, int location)
+Script "GAG_DSAREA" (int volume, int location) // Prints the Dark Souls area name on screen
 {
     AmbientSound(DSAREA, volume);
     switch (location)
@@ -27,12 +27,12 @@ Script "GAG_DSAREA" (int volume, int location)
     }
 }
 
-Script "GAG_GOULD" (void)
+Script "GAG_GOULD" (void) // A thoughtful eulogy for Stephen J. Gould
 {
     HudMessage(s:"In Loving Memory: Gould\nMay his quotes serve a greater purpose"; HUDMSG_PLAIN, 0, CR_UNTRANSLATED, 0.5, 0.35, 3.0);
 }
 
-Script "GAG_DAPPER" (int lineID)
+Script "GAG_DAPPER" (int lineID) // Initiates the Dapper Dinosaur scripted cameo scene
 {
     ACS_NamedExecute("MUSIC_CROSSFADE", -1);
     Floor_LowerToNearest(0, NORMAL);
