@@ -1,0 +1,36 @@
+// Rates
+
+#define NORMAL 8
+#define DSAREA_FADETIME 0.5
+#define DSAREA_HOLDTIME 2.0
+#define MUSIC_CROSSFADETIME 0.025
+
+// Music ID
+
+#define NONE -1
+#define CATMUS_ID 1
+#define BENTSONG_ID 2
+
+// Music name string
+
+#define CATMUS "CATMUS"
+#define BENTSONG "BENTSONG"
+
+// Location IDs
+
+#define CATHEDRAL_ID 1
+#define MINE_ID 2
+
+// Location name strings
+
+#define CATHEDRAL_NAME "HOVIND CATHEDRAL"
+#define MINE_NAME "QUOTE MINES"
+
+// Sound strings
+
+#define DAPPERTHEME "DAPPERTHEME"
+#define DSAREA "DSAREA"
+
+// Default map song strings
+
+//#define MAP01_DEFAULT_MUSIC "D_DEAD"

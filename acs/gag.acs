@@ -1,7 +1,5 @@
-#library "GAG"
-#import "CONSTANT.acs"
-#import "ENV.acs"
-#include "zcommon.acs"
+#include "constant.acs"
+//#include "zcommon.acs"
 
 // Scripts
 
