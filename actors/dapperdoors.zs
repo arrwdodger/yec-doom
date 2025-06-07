@@ -1,5 +1,10 @@
 class DapperDoorL : Actor
 {
+	default
+	{
+		radius 2;
+		-SOLID;
+	}
     states
     {
         spawn:
@@ -10,6 +15,11 @@ class DapperDoorL : Actor
 
 class DapperDoorR : Actor
 {
+	default
+	{
+		radius 2;
+		-SOLID;
+	}
     states
     {
         spawn:

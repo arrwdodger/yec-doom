@@ -1,5 +1,5 @@
-//#include "zcommon.acs"
-//#include "constant.acs"
+#include "zcommon.acs"
+#include "constant.acs"
 
 // Scripts
 
@@ -32,14 +32,14 @@ Script "GAG_GOULD" (void) // A thoughtful eulogy for Stephen J. Gould
     HudMessage(s:"In Loving Memory: Gould\nMay his quotes serve a greater purpose"; HUDMSG_PLAIN, 0, CR_UNTRANSLATED, 0.5, 0.35, 3.0);
 }
 
-Script "GAG_DAPPER" (int lineID) // Initiates the Dapper Dinosaur scripted cameo scene
+Script "GAG_DAPPER" (int lineID, int leftActorMoverID, int rightActorMoverID) // Initiates the Dapper Dinosaur scripted cameo scene
 {
-    ACS_NamedExecute("MUSIC_CROSSFADE", -1);
-    Floor_LowerToNearest(0, NORMAL);
+    ACS_NamedExecute("MUSIC_CROSSFADE", 0, NONE);
+	Floor_LowerToNearest(0, NORMAL);
     Delay(70);
     AmbientSound(DAPPERTHEME, 100);
-    Delay(105);
-    Thing_Activate(3);
-    Thing_Activate(4);
-    Line_SetBlocking(lineID, 0, 1);
+    Delay(120);
+    Thing_Activate(leftActorMoverID);
+    Thing_Activate(rightActorMoverID);
+    Line_SetBlocking(lineID, 0, BLOCKF_EVERYTHING);
 }
