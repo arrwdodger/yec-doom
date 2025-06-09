@@ -34,7 +34,7 @@ Script "GAG_GOULD" (void) // A thoughtful eulogy for Stephen J. Gould
 
 Script "GAG_DAPPER" (int lineID, int leftActorMoverID, int rightActorMoverID) // Initiates the Dapper Dinosaur scripted cameo scene
 {
-    ACS_NamedExecute("MUSIC_CROSSFADE", 0, NONE);
+    //ACS_NamedExecute("MUSIC_CROSSFADE", 0, NONE);
 	Floor_LowerToNearest(0, NORMAL);
     Delay(70);
     AmbientSound(DAPPERTHEME, 100);

@@ -1,0 +1,24 @@
+namespace = "GZDoom";
+
+conversation
+{
+	id = 666;
+	actor = "Kent";
+	page
+	{
+		name = "Kent Hovind";
+		dialog = "Test dialogue";
+	}
+}
+
+conversation
+{
+    id = 1;
+    actor = "MapSpot";
+    page
+    {
+        name = "Sign";
+        dialog = "Property of Rob Carter.\nDo not touch.";
+		goodbye = "Yeah? Whatever.";
+    }
+}
