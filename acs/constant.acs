@@ -1,11 +1,12 @@
 // Rates
 
 #define NORMAL 8 // Normal movement rate for floors in DOOM
+#define SLOW 4 // Half the movement rate for floors in DOOM
 #define DSAREA_FADETIME 0.5 // Fade time for the Dark Souls area title gag
 #define DSAREA_HOLDTIME 2.0 // Hold time for the Dark Souls area title gag
 #define MUSIC_CROSSFADETIME 0.025 // Rate at which the music should crossfade
 
-// Music ID
+// Music IDs
 
 #define NONE -1 // No muisc
 #define CATMUS_ID 1 // Cathedral music ID
@@ -31,6 +32,13 @@
 #define DAPPERTHEME "DAPPERTHEME" // Sound name string of the Dapper Dinosaur theme song
 #define DSAREA "DSAREA" // Sound name string of the Dark Souls area title gag sting
 
-// Default map song strings
+// Sector IDs
 
-//#define MAP01_DEFAULT_MUSIC "D_DEAD"
+#define DAPPER_ARENA_SECTOR 17 // The sector that Dapper Dinosaur is in
+#define DAPPER_ARENA_DOORS_SECTOR 18 // The doors in the Dapper Dinosaur arena holding the imps
+#define DAPPER_ARENA_BARONPIL_SECTOR 19 // The pillars in the Dapper Dinosaur arena holding the barons
+
+// Thing IDs
+
+#define DAPPER_ARENA_CACOSPAWN 11 // The MapSpot(s) where the Cacodemons spawn in the Dapper Dinosaur arena
+#define DAPPER_ARENA_PAINSPAWN 10 // The MapSpot(s) where the Pain Elementals spawn in the Dapper Dinosaur arena
