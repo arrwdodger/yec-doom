@@ -1,6 +1,6 @@
 type = "Doom Builder Map Settings Configuration";
 gameconfig = "GZDoom_DoomUDMF.cfg";
-strictpatches = 0;
+strictpatches = 1;
 
 maps
 {
@@ -13,16 +13,6 @@ maps
 			
 			resource0
 			{
-				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/DOOM2.WAD";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
-			
-			resource1
-			{
 				type = 1;
 				location = "/home/arrwdodger/.slade3/archives/yec";
 				option1 = 0;
@@ -31,7 +21,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource2
+			resource1
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/2mbrown.wad";
@@ -41,7 +31,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource3
+			resource2
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/cage_tex.wad";
@@ -51,7 +41,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource4
+			resource3
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/CageTex2.wad";
@@ -61,7 +51,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource5
+			resource4
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/UDET.wad";
@@ -71,7 +61,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource6
+			resource5
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/d1gfxd2.wad";
@@ -81,7 +71,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource7
+			resource6
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/decontex.wad";
@@ -91,7 +81,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource8
+			resource7
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/DGDBTXTR.WAD";
@@ -101,7 +91,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource9
+			resource8
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/DoomPotpourri.wad";
@@ -111,7 +101,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource10
+			resource9
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/NOIRPACK.WAD";
@@ -121,7 +111,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource11
+			resource10
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/NMTEXT2.WAD";
@@ -131,7 +121,7 @@ maps
 				requiredarchives = "";
 			}
 			
-			resource12
+			resource11
 			{
 				type = 0;
 				location = "/home/arrwdodger/.slade3/archives/yec/stock/nb_flats.wad";
@@ -158,9 +148,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = true;
-		viewpositionx = -23146.92f;
-		viewpositiony = 23030.97f;
-		viewscale = 0.3937373f;
+		viewpositionx = -19865.34f;
+		viewpositiony = 20518.77f;
+		viewscale = 3.211834f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -171,7 +161,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 256;
+			gridsize = 32;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
