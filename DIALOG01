@@ -1,6 +1,8 @@
 namespace = "GZDoom";
 
-conversation
+// Dialogue
+
+conversation // Kent Hovind's spiel
 {
 	id = 666;
 	actor = "Kent";
@@ -11,7 +13,9 @@ conversation
 	}
 }
 
-conversation
+// Gags
+
+conversation // Rob Carter gag
 {
     id = 1;
     actor = "MapSpot";

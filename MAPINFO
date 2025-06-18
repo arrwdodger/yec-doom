@@ -4,10 +4,27 @@ map MAP01 "Creatia"
     Music = "D_DEAD"
 }
 
-episode MAP01
+map ENTER "Creatia"
+{
+    Sky1 = "RSKY1"
+    Next = "MAP01"
+    Next = endsequence, "IntroIntermission"
+}
+
+episode ENTER
 {
     Name = "YEC DOOM"
     NoSkillMenu
+}
+
+intermission IntroIntermission
+{
+    TextScreen
+    {
+        Background = "SLIME16", 1
+        Music = "D_READ_M"
+        TextLump = "text/IntroIntermission"
+    }
 }
 
 skill MyUltraViolence
@@ -21,4 +38,5 @@ DoomEdNums
     13501 = DapperDoorL
     13502 = DapperDoorR
 	13503 = Kent
+    13506 = Dapper
 }

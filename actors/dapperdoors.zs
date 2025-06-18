@@ -5,6 +5,7 @@ class DapperDoorL : Actor
 		radius 2;
 		-SOLID;
 	}
+
     states
     {
         spawn:
@@ -20,6 +21,7 @@ class DapperDoorR : Actor
 		radius 2;
 		-SOLID;
 	}
+    
     states
     {
         spawn:

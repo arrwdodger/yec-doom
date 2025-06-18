@@ -1,2 +1,3 @@
 #include "actors/dapperdoors.zs"
+#include "actors/dapper.zs"
 #include "actors/kent.zs"
