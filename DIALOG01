@@ -2,27 +2,120 @@ namespace = "GZDoom";
 
 // Dialogue
 
-conversation // Kent Hovind's spiel
+// Kent Hovind's spiel
+
+conversation // Kent Hovind's greetings to the player
 {
 	id = 666;
 	actor = "Kent";
 
-	page // Kent greets the player
+	page
 	{
-		pagename = "conversation_kent_greetings";
-		name = "Kent Hovind";
-		panel = "KENTMUG";
-		dialog = "Test dialogue";
+		pagename = "conversation_kent_greetings_010";
+		name = "kent hovind";
+		dialog = "welcome, esteemed guest, to the true house of the lord! i am dr. kent hovind, dinosaur expert extraordinaire, and i am in great need of a man of your talents!";
+
+		choice
+		{
+			text = "what seems to be the issue?";
+			nextpage = "conversation_kent_greetings_020";
+		}
+
+		goodbye = "i don't have time for this.";
 	}
 
 	page
 	{
-		pagename = "conversation_kent_other";
-		name = "Kent Hovind";
-		panel = "KENTMUG";
-		dialog = "Test dialogue";
+		pagename = "conversation_kent_greetings_020";
+		name = "kent hovind";
+		dialog = "i have fallen upon great misery this day! my beloved ark has been taken over by demons from hell!";
+
+		choice
+		{
+			text = "calm down sir. what ark? what demons?";
+			nextpage = "conversation_kent_greetings_030";
+		}
+
+		goodbye = "i don't have time for this.";
+	}
+
+	page
+	{
+		pagename = "conversation_kent_greetings_030";
+		name = "kent hovind";
+		dialog = "my ark, just east of here. i and my team built her to spread the good news of the young earth across the seven seas! i was only just about to launch her when a force most foul sought to end my mission. they have commandeered my vessel and locked the whole thing down!";
+
+		choice
+		{
+			text = "well, what should i do?";
+			nextpage = "conversation_kent_greetings_040";
+		}
+
+		goodbye = "i don't have time for this.";
+	}
+
+	page
+	{
+		pagename = "conversation_kent_greetings_040";
+		name = "kent hovind";
+		dialog = "through tireless divination, i can feel its evil, progressive, liberal energy wafting from the mines. you must venture inside and destroy the demons' source of power. only then will the ark be opened and only then will you be able to cleanse it.";
+
+		choice
+		{
+			text = "the mines?";
+			nextpage = "conversation_kent_greetings_050";
+		}
+
+		goodbye = "i don't have time for this.";
+	}
+
+	page
+	{
+		pagename = "conversation_kent_greetings_050";
+		name = "kent hovind";
+		dialog = "yes, the mines! the mines behind the church! every church has mines! stop being weird about it!";
+
+		choice
+		{
+			text = "ok, sorry. geez.";
+			nextpage = "conversation_kent_greetings_060";
+		}
+
+		goodbye = "i don't have time for this.";
+	}
+
+	page
+	{
+		pagename = "conversation_kent_greetings_060";
+		name = "kent hovind";
+		dialog = "quickly, head to the mines and destroy their source of power. be cautioned, however, as the reality of hell is seeping into our own, distorting and corrupting everything! don't come back to me until my beloved ark is cleansed and launched for her maiden voyage!";
+
+		choice
+		{
+			text = "ok, got it.";
+			specialname = "Thing_SetConversation";
+			arg0 = 616;
+			arg1 = 777;
+		}
+
+		goodbye = "i don't have time for this.";
 	}
 }
+
+conversation // Kent Hovind's shooing of the player
+{
+	id = 777;
+	actor = "Kent";
+
+	page
+	{
+		name = "kent hovind";
+		dialog = "what is it? can't you see i'm in the middle of a divination?";
+		goodbye = "sorry, i didn't notice.";
+	}
+}
+
+
 
 // Gags
 
@@ -30,10 +123,11 @@ conversation // Rob Carter gag
 {
     id = 1;
     actor = "MapSpot";
+
     page
     {
-        name = "Sign";
-        dialog = "Property of Rob Carter.\nDo not touch.";
-		goodbye = "Yeah? Whatever.";
+        name = "sign";
+        dialog = "property of rob carter.\ndo not touch.";
+		goodbye = "yeah? whatever.";
     }
 }
