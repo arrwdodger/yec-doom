@@ -1,3 +1,10 @@
+defaultmap
+{
+    NoJump
+    NoCrouch
+    NoFreelook
+}
+
 map MAP01 "Creatia"
 {
     Sky1 = "RSKY1"
@@ -8,7 +15,7 @@ map ENTER "Creatia"
 {
     Sky1 = "RSKY1"
     Next = "MAP01"
-    Next = endsequence, "IntroIntermission"
+    Next = endsequence, "intermission_intro"
 }
 
 episode ENTER
@@ -17,13 +24,13 @@ episode ENTER
     NoSkillMenu
 }
 
-intermission IntroIntermission
+intermission intermission_intro
 {
     TextScreen
     {
         Background = "SLIME16", 1
         Music = "D_READ_M"
-        TextLump = "text/IntroIntermission"
+        TextLump = "text/intermission_intro"
     }
 }
 

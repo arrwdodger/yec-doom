@@ -6,9 +6,20 @@ conversation // Kent Hovind's spiel
 {
 	id = 666;
 	actor = "Kent";
+
+	page // Kent greets the player
+	{
+		pagename = "conversation_kent_greetings";
+		name = "Kent Hovind";
+		panel = "KENTMUG";
+		dialog = "Test dialogue";
+	}
+
 	page
 	{
+		pagename = "conversation_kent_other";
 		name = "Kent Hovind";
+		panel = "KENTMUG";
 		dialog = "Test dialogue";
 	}
 }

@@ -9,11 +9,13 @@
 // Music IDs
 
 #define NONE -1 // No muisc
+#define MUSIC_DEFAULT_ID 0 // Default map music ID
 #define CATMUS_ID 1 // Cathedral music ID
 #define BENTSONG_ID 2 // Bent Hovind "no relation" music ID
 
 // Music name string
 
+#define MUSIC_DEFAULT "D_DEAD" // Default map music name string
 #define CATMUS "CATMUS" // Cathedral music name string
 #define BENTSONG "BENTSONG" // Bent Hovind "no relation" music name string
 
@@ -42,3 +44,4 @@
 
 #define DAPPER_ARENA_CACOSPAWN 11 // The MapSpot(s) where the Cacodemons spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_PAINSPAWN 10 // The MapSpot(s) where the Pain Elementals spawn in the Dapper Dinosaur arena
+#define DAPPER_ARENA_ENEMYID 23 // The ID all the enemies have in the Dapper Dinosaur arena
