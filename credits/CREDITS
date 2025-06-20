@@ -1,11 +1,13 @@
 (C) Copyright Kent Halstead (Arrwdodger) 2025
 
-Original code is licensed under the GNU GPL where applicable.
+I am not a lawyer, this is just a dumb DOOM mod, so I may have messed this up.
+
+Original code is licensed under the GNU GPL where applicable (see COPYING).
 Original art is licesned under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International where applicable: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 TEXTURES:
 
-Stock textures from Realm667:
+Stock textures from Realm667 (https://www.realm667.com/):
 
 2mbrown.wad
     Conversion: Tormentor667
@@ -61,7 +63,7 @@ DAPPERDOORR.png
 DAPPERDOORTRIM.png
 DDDDA0.png
 
-SONGS:
+MUSIC:
 
 BENTSONG is:
     (C) Bent Hovind "no relation"
@@ -70,3 +72,11 @@ CATMUS is:
     The Greek Byzantine Choir
     The Era of Byzantion - Byzantine Hymns, Vol. 5
     https://www.youtube.com/watch?v=mJu8iYA4vds
+
+SOUNDS:
+
+DSAREA is:
+    (C) From Software, 2011, 2018
+
+DAPPERTHEME is:
+    (C) Dapper Dinosaur
