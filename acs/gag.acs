@@ -28,7 +28,7 @@ Script "GAG_DSAREA" (int volume, int location) // Prints the Dark Souls area nam
 
 Script "GAG_GOULD" (void) // A thoughtful eulogy for Stephen J. Gould
 {
-    HudMessage(s:"In Loving Memory: Gould\nMay his quotes serve a greater purpose"; HUDMSG_PLAIN, 0, CR_UNTRANSLATED, 0.5, 0.35, 5.0);
+    HudMessage(s:"here lies gould\nmay his quotes serve a greater purpose"; HUDMSG_PLAIN, 0, CR_UNTRANSLATED, 0.5, 0.35, 5.0);
 }
 
 Script "GAG_DAPPER" (int lineID, int leftActorMoverID, int rightActorMoverID) // Initiates the Dapper Dinosaur scripted cameo scene
