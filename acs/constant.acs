@@ -4,6 +4,8 @@
 #define SLOW 4 // Half the movement rate for floors in DOOM
 #define DSAREA_FADETIME 0.5 // Fade time for the Dark Souls area title gag
 #define DSAREA_HOLDTIME 2.0 // Hold time for the Dark Souls area title gag
+#define DSAREA_X 0.5 // X-offset for the Dark Souls area title gag
+#define DSAREA_Y 0.35 // Y-offset for the Dark Souls area title gag
 #define MUSIC_CROSSFADETIME 0.025 // Rate at which the music should crossfade
 
 // Music IDs
@@ -42,6 +44,7 @@
 
 // Thing IDs
 
+#define DAPPER_ID 13 // Dapper's ID
 #define DAPPER_ARENA_CACOSPAWN 11 // The MapSpot(s) where the Cacodemons spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_PAINSPAWN 10 // The MapSpot(s) where the Pain Elementals spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_ENEMYID 23 // The ID all the enemies have in the Dapper Dinosaur arena

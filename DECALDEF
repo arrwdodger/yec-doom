@@ -17,3 +17,8 @@ decal Darwin 4
 {
     pic DECAL_DARWIN
 }
+
+decal Scribble 5
+{
+    pic DECAL_SIGN
+}
