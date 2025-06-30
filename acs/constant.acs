@@ -25,11 +25,13 @@
 
 #define CATHEDRAL_ID 1 // Location ID of the cathedral
 #define MINE_ID 2 // Location ID of the mine
+#define ARK_ID 3 // Location ID of the ark
 
 // Location name strings
 
 #define CATHEDRAL_NAME "HOVIND CATHEDRAL" // Printed location name string of the cathedral
 #define MINE_NAME "QUOTE MINES" // Printed location name string of the mine
+#define ARK_NAME "THE ARK" // Printed location name string of the ark
 
 // Sound strings
 

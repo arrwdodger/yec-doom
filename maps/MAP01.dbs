@@ -1,6 +1,6 @@
 type = "Doom Builder Map Settings Configuration";
 gameconfig = "GZDoom_DoomUDMF.cfg";
-strictpatches = 1;
+strictpatches = 0;
 
 maps
 {
@@ -24,7 +24,7 @@ maps
 			resource1
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/2mbrown.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/2mbrown.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -34,7 +34,7 @@ maps
 			resource2
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/cage_tex.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/cage_tex.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -44,7 +44,7 @@ maps
 			resource3
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/CageTex2.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/CageTex2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -54,7 +54,7 @@ maps
 			resource4
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/UDET.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/UDET.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -64,7 +64,7 @@ maps
 			resource5
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/d1gfxd2.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/d1gfxd2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -74,7 +74,7 @@ maps
 			resource6
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/decontex.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/decontex.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -84,7 +84,7 @@ maps
 			resource7
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/DGDBTXTR.WAD";
+				location = "/home/arrwdodger/.slade3/archives/stock/DGDBTXTR.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -94,7 +94,7 @@ maps
 			resource8
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/DoomPotpourri.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/DoomPotpourri.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -104,7 +104,7 @@ maps
 			resource9
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/NOIRPACK.WAD";
+				location = "/home/arrwdodger/.slade3/archives/stock/NOIRPACK.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -114,7 +114,7 @@ maps
 			resource10
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/NMTEXT2.WAD";
+				location = "/home/arrwdodger/.slade3/archives/stock/NMTEXT2.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -124,7 +124,7 @@ maps
 			resource11
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/stock/nb_flats.wad";
+				location = "/home/arrwdodger/.slade3/archives/stock/nb_flats.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -148,9 +148,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = true;
-		viewpositionx = -2823.229f;
-		viewpositiony = -5479.142f;
-		viewscale = 0.2329806f;
+		viewpositionx = 17296.37f;
+		viewpositiony = -17144.17f;
+		viewscale = 0.8650235f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -161,7 +161,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 512;
+			gridsize = 128;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
