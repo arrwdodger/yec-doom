@@ -129,3 +129,29 @@ conversation // Rob Carter gag
 		goodbye = "yeah? whatever.";
     }
 }
+
+conversation // Just an ape gag
+{
+	id = 2;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "just apes";
+		goodbye = "ok";
+	}
+}
+
+conversation // Fully human gag
+{
+	id = 3;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "fully human";
+		goodbye = "ok";
+	}
+}
