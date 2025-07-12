@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "/home/arrwdodger/.slade3/archives/yec";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -24,7 +24,7 @@ maps
 			resource1
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/brown/2mbrown.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\brown\\2mbrown.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -34,7 +34,7 @@ maps
 			resource2
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/cage/cage_tex.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\cage\\cage_tex.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -44,7 +44,7 @@ maps
 			resource3
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/cage/CageTex2.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\cage\\CageTex2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -54,7 +54,7 @@ maps
 			resource4
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/decontex/decontex.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\decontex\\decontex.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -64,7 +64,7 @@ maps
 			resource5
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/dgdbtxtr/DGDBTXTR.WAD";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\dgdbtxtr\\DGDBTXTR.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -74,7 +74,7 @@ maps
 			resource6
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/doom1fordoom2/d1gfxd2.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\doom1fordoom2\\d1gfxd2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -84,7 +84,7 @@ maps
 			resource7
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/nbflats/nb_flats.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\nbflats\\nb_flats.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -94,7 +94,7 @@ maps
 			resource8
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/nmtext2/NMTEXT2.WAD";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\nmtext2\\NMTEXT2.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -104,7 +104,7 @@ maps
 			resource9
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/noir/NOIRPACK.WAD";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\noir\\NOIRPACK.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -114,7 +114,7 @@ maps
 			resource10
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/potpourri/DoomPotpourri.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\potpourri\\DoomPotpourri.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -124,7 +124,7 @@ maps
 			resource11
 			{
 				type = 0;
-				location = "/home/arrwdodger/.slade3/archives/yec/textures/stock/usefuldoomedits/UDET.wad";
+				location = "Z:\\home\\arrwdodger\\.slade3\\archives\\yec\\textures\\stock\\usefuldoomedits\\UDET.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -148,9 +148,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = true;
-		viewpositionx = 19101.69f;
-		viewpositiony = -14560.81f;
-		viewscale = 0.1378579f;
+		viewpositionx = 20962.28f;
+		viewpositiony = -14033.28f;
+		viewscale = 1.461915f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -161,7 +161,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 512;
+			gridsize = 64;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -231,7 +231,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 18;
-				foldlevels = "0:0";
+				activetab = true;
 			}
 			
 			document1
@@ -241,9 +241,6 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 22;
-				activetab = true;
-				foldlevels = "0:0";
 			}
 		}
 	}
