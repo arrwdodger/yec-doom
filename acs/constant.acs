@@ -8,6 +8,10 @@
 #define DSAREA_Y 0.35 // Y-offset for the Dark Souls area title gag
 #define MUSIC_CROSSFADETIME 0.025 // Rate at which the music should crossfade
 
+// Constants
+
+#define DSAREA_VOLUME 110 // The volume for the Dark Souls area sound effect
+
 // Music IDs
 
 #define NONE -1 // No muisc
@@ -50,3 +54,14 @@
 #define DAPPER_ARENA_CACOSPAWN 11 // The MapSpot(s) where the Cacodemons spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_PAINSPAWN 10 // The MapSpot(s) where the Pain Elementals spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_ENEMYID 23 // The ID all the enemies have in the Dapper Dinosaur arena
+
+// Misc Strings
+
+#define GOULD_EULOGY "here lies gould\nmay his quotes serve a greater purpose" // A thoughtful eulogy for Stephen J. Gould
+#define ARK_LOCKED "a power beyond your comprehension has sealed the ark" // Tells the player that entrance to the Ark is forbidden
+#define SECRET_LOOKBEHINDYOU "look behind you" // Tells the player to look behind them
+
+#define FWATER1 "FWATER1" // Calls the FWATER1 flat
+#define GATE4 "GATE4" // Calls the GATE4 flat
+
+#define STATE_DEATH "Death" // Calls the Death state
