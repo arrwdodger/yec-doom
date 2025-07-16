@@ -64,4 +64,4 @@
 #define FWATER1 "FWATER1" // Calls the FWATER1 flat
 #define GATE4 "GATE4" // Calls the GATE4 flat
 
-#define STATE_DEATH_CRUSH "Death.Crush" // Calls the Death Crush state
+#define STATE_DEATH_CRUSH "death.crush" // Calls the Death Crush state

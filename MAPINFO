@@ -7,7 +7,7 @@ defaultmap
 
 map MAP01 "Creatia"
 {
-    Sky1 = "RSKY1"
+    Sky1 = "SKY7"
     Music = "D_DEAD"
 }
 

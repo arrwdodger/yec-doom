@@ -155,3 +155,29 @@ conversation // Fully human gag
 		goodbye = "ok";
 	}
 }
+
+conversation // You can read gag
+{
+	id = 4;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "you can read. good job.";
+		goodbye = "don't patronize me!";
+	}
+}
+
+conversation // Human evolution gag
+{
+	id = 5;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "the hall of human \"evolution\"";
+		goodbye = "ok";
+	}
+}
