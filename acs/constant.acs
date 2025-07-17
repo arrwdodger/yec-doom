@@ -54,6 +54,7 @@
 #define DAPPER_ARENA_CACOSPAWN 11 // The MapSpot(s) where the Cacodemons spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_PAINSPAWN 10 // The MapSpot(s) where the Pain Elementals spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_ENEMYID 23 // The ID all the enemies have in the Dapper Dinosaur arena
+#define KENT_ID 666 // Kent Hovind's ID
 
 // Misc Strings
 

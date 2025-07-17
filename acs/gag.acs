@@ -6,11 +6,13 @@
 Script "GAG_ARK" (int tag, int oceanSector, int sector3D) // This script is used to sink the ark
 {
     int sector3DZDelta = GetSectorCeilingZ(sector3D, 0, 0) - GetSectorFloorZ(oceanSector, 0, 0) + 1;
+    Delay(35 * 10);
     Floor_MoveToValue(tag, NORMAL, 128, 1);
     FloorAndCeiling_LowerByValue(sector3D, NORMAL, sector3DZDelta);
     ChangeFloor(tag, FWATER1);
-    Delay(70);
-    Thing_Destroy(20);
+    Delay(140);
+    Polyobj_MoveTimes8(2, 128, 0, 300);
+    Thing_SetConversation(KENT_ID, 686);
 }
 
 Script "GAG_DSAREA" (int location) // Prints the Dark Souls area name on screen

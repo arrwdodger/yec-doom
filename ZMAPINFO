@@ -3,19 +3,7 @@ defaultmap
     NoJump
     NoCrouch
     NoFreelook
-}
-
-map MAP01 "Creatia"
-{
-    Sky1 = "SKY7"
-    Music = "D_DEAD"
-}
-
-map ENTER "Creatia"
-{
-    Sky1 = "RSKY1"
-    Next = "MAP01"
-    Next = endsequence, "intermission_intro"
+    NoInfighting
 }
 
 episode ENTER
@@ -24,7 +12,27 @@ episode ENTER
     NoSkillMenu
 }
 
-intermission intermission_intro
+cluster 1
+{
+    EnterText = lookup, "INTRO_LUKE"
+    Music = "D_READ_M"
+    Flat = "SLIME16"
+}
+
+map MAP01 "Creatia"
+{
+    Cluster = 1
+    Sky1 = "SKY7"
+    Music = "D_DEAD"
+}
+
+map ENTER "Creatia"
+{
+    Sky1 = "RSKY1"
+    Next = "MAP01"
+}
+
+intermission intermission_outro
 {
     TextScreen
     {

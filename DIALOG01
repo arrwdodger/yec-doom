@@ -94,7 +94,7 @@ conversation // Kent Hovind's greetings to the player
 		{
 			text = "ok, got it.";
 			specialname = "Thing_SetConversation";
-			arg0 = 616;
+			arg0 = 666;
 			arg1 = 777;
 		}
 
@@ -109,9 +109,24 @@ conversation // Kent Hovind's shooing of the player
 
 	page
 	{
+		pagename = "conversation_kent_divination";
 		name = "kent hovind";
 		dialog = "what is it? can't you see i'm in the middle of a divination?";
 		goodbye = "sorry, i didn't notice.";
+	}
+}
+
+conversation // Kent Hovind congratulating the player on defeating Dapper Dinosaur
+{
+	id = 676;
+	actor = "Kent";
+
+	page
+	{
+		pagename = "conversation_kent_congratulations_ark";
+		name = "kent hovind";
+		dialog = "my divination has revealed to me the power source's destruction, and i can no longer sense its presence. your bravery has turned the tide of battle in my favor, and for that i thank you. now, enter the ark, for the seal has been broken, and dispatch the demons within. be warned, you will need a keycard to launch the ark. i'm sure there is a spare one... somewhere.";
+		goodbye = "sure.";
 	}
 }
 
