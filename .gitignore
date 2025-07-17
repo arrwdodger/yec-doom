@@ -1,6 +1,6 @@
 /maps/MAP01.wad.*
 /maps/ENTER.wad.*
-/stock/
-/stock/*
 /textures/stock/
 /textures/stock/*
+/flats/stock/
+/flats/stock/*

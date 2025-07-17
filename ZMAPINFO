@@ -28,8 +28,8 @@ map MAP01 "Creatia"
 
 map ENTER "Creatia"
 {
-    Sky1 = "RSKY1"
     Next = "MAP01"
+    NoIntermission
 }
 
 intermission intermission_outro
