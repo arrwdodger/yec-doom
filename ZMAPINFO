@@ -32,13 +32,35 @@ map ENTER "Creatia"
     NoIntermission
 }
 
-intermission intermission_outro
+intermission outro_01
+{
+    Link = outro_02
+    TextScreen
+    {
+        Background = "SLIME16", 1
+        Music = "D_READ_M"
+        TextLump = "text/outro_01"
+    }
+}
+
+intermission outro_02
+{
+    Link = utro_03
+    TextScreen
+    {
+        Background = "SLIME16", 1
+        Music = "D_READ_M"
+        TextLump = "text/outro_02"
+    }
+}
+
+intermission outro_03
 {
     TextScreen
     {
         Background = "SLIME16", 1
         Music = "D_READ_M"
-        TextLump = "text/intermission_intro"
+        TextLump = "text/outro_03"
     }
 }
 

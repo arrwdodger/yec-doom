@@ -47,6 +47,8 @@
 #define DAPPER_ARENA_SECTOR 17 // The sector that Dapper Dinosaur is in
 #define DAPPER_ARENA_DOORS_SECTOR 18 // The doors in the Dapper Dinosaur arena holding the imps
 #define DAPPER_ARENA_BARONPIL_SECTOR 19 // The pillars in the Dapper Dinosaur arena holding the barons
+#define KENT_ARENA_DOORSECTOR 21 // The sector that closes the arena
+#define KENT_ARENA_CROSSARMS 22 // The sector that contains the cross arms
 
 // Thing IDs
 
@@ -54,9 +56,29 @@
 #define DAPPER_ARENA_CACOSPAWN 11 // The MapSpot(s) where the Cacodemons spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_PAINSPAWN 10 // The MapSpot(s) where the Pain Elementals spawn in the Dapper Dinosaur arena
 #define DAPPER_ARENA_ENEMYID 23 // The ID all the enemies have in the Dapper Dinosaur arena
-#define KENT_ID 666 // Kent Hovind's ID
 
-// Misc Strings
+#define KENT_ID 666 // Kent Hovind's ID
+#define KENT_ARENA_PLAYERWARP 40 // The MapSpot where the player gets warped to at the start of the Kent arena
+#define KENT_ARENA_CYBERSPAWN 50 // The MapSpot(s) where the Cyberdemons spawn in the Kent arena
+#define KENT_ARENA_IMPSPAWN 55 // The MapSpot(s) where the Imps spawn in the Kent arena
+#define KENT_ARENA_SHOTGUNSPAWN 60 // The MapSpot(s) where the Shotgunners spawn in the Kent arena
+#define KENT_ARENA_CHAINSPAWN 65 // The MapSpot(s) where the Chaingunners spawn in the Kent arena
+#define KENT_ARENA_BARONSPAWN 70 // The MapSpot(s) where the Barons of Hell spawn in the Kent arena
+#define KENT_ARENA_CACOSPAWN 75 // The MapSpot(s) where the Cacodemons spawn in the Kent arena
+#define KENT_ARENA_PAINSPAWN 80 // The MapSpot(s) where the Pain Elementals spawn in the Kent arena
+#define KENT_ARENA_DEMONSPAWN 85 // The MapSpot(s) where the Demons spawn in the Kent arena
+#define KENT_ARENA_AMMOSPAWN 100 // The MapSpot(s) where the backpacks spawn in the Kent arena
+#define KENT_ARENA_CELLSPAWN 105 // The MapSpot(s) where the cells spawn in the Kent arena
+#define KENT_ARENA_ROCKETSPAWN 110 // The MapSpot(s) where the rockets spawn in the Kent arena
+#define KENT_ARENA_SHELLSPAWN 115 // The MapSpot(s) where the shells spawn in the Kent arena
+#define KENT_ARENA_MEDKITSPAWN 200 // The MapSpot(s) where the medkits spawn in the Kent arena
+#define KENT_ARENA_ARMORSPAWN 205 // The MapSpot(s) where the armor spawns in the Kent arena
+#define KENT_ARENA_SOULSPHERESPAWN 210 // The MapSpot(s) where the soulspheres spawn in the Kent arena
+#define KENT_ARENA_MEGASPHERESPAWN 215 // The MapSpot(s) where the megaspheres spawn in the Kent arena
+#define KENT_ARENA_INVINCIBLESPAWN 220 // The MapSpot(s) where the invincibility powerup spawns in the Kent arena
+#define KENT_ARENA_ENEMYID 1000 // The ID all the enemies have in the Kent arena
+
+// Misc Strings, because ACS is acting weird with strings and they only work in here :/
 
 #define GOULD_EULOGY "here lies gould\nmay his quotes serve a greater purpose" // A thoughtful eulogy for Stephen J. Gould
 #define ARK_LOCKED "a power beyond your comprehension has sealed the ark" // Tells the player that entrance to the Ark is forbidden
@@ -64,5 +86,3 @@
 
 #define FWATER1 "FWATER1" // Calls the FWATER1 flat
 #define GATE4 "GATE4" // Calls the GATE4 flat
-
-#define STATE_DEATH_CRUSH "death.crush" // Calls the Death Crush state

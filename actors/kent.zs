@@ -12,13 +12,10 @@ class Kent : Actor
         height 72;
     }
     
-    /*
     states
     {
         spawn:
-        {
-
-        }
+            KENT A 1;
+            loop;
     }
-    */
 }
