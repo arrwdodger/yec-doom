@@ -24,6 +24,7 @@ map MAP01 "Creatia"
     Cluster = 1
     Sky1 = "SKY7"
     Music = "D_DEAD"
+    Next = endsequence, "outro_01"
 }
 
 map ENTER "Creatia"
@@ -45,7 +46,7 @@ intermission outro_01
 
 intermission outro_02
 {
-    Link = utro_03
+    Link = outro_03
     TextScreen
     {
         Background = "SLIME16", 1

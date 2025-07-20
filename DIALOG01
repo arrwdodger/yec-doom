@@ -130,6 +130,69 @@ conversation // Kent Hovind congratulating the player on defeating Dapper Dinosa
 	}
 }
 
+conversation // Kent Hovind realizing his dreams are crumbling to dust
+{
+	id = 686;
+	actor = "Kent";
+
+	page
+	{
+		pagename = "conversation_kent_insane_01";
+		name = "kent hovind";
+		dialog = "oh how could this be!? my ark! my precious ark! she was my magnum opus, my ultimate testament to god! why? why has he forsaken me? could jeff have forgotten to carry the 1? aaaaaaaaaaargh!";
+
+		choice
+		{
+			text = "man, i'm sorry. how can i make it up to you?";
+			nextpage = "conversation_kent_insane_02";
+		}
+
+		goodbye = "i don't have time for this.";
+	}
+
+	page
+	{
+		pagename = "conversation_kent_insane_02";
+		name = "kent hovind";
+		dialog = "how can god abondon me like this? i've been deceived! god is a false, tricky being who needs to be vanquished! i pledge myself to evil! i pledge myself to you, satan! give me the power to defeat god!";
+
+		choice
+		{
+			text = "i think you need to calm down a little. [fight the final boss]";
+			specialname = "ACS_Execute";
+			arg0 = 666;
+			arg1 = 0;
+			arg2 = 0;
+			arg3 = 0;
+			arg4 = 0;
+		}
+
+		goodbye = "i don't have time for this. [i'm not ready]";
+	}
+}
+
+conversation
+{
+	id = 696;
+	actor = "Kent";
+
+	page
+	{
+		pagename = "conversation_kent_end_01";
+		name = "kent hovind";
+		dialog = "oh i have failed! my whole life has been a waste, and i feel my end is near.\n\nhark, i have received a vision! i see the grave upon which my name is written; cold, alone, forgotten; my name fading from the collective memory; every man, woman, and child scorning my legacy; and you, an angel of the lord, have come to pass judgement upon me! oh spirit! tell me these visions are yet maleable, that time still graces me enough to right my wrongs however much i can in what little life i have left. spirit, hear me! i am not the man i was. i will not be the man i have been but for this intercourse! why show me this, if i am past all hope?";
+
+		choice
+		{
+			text = "kent, even though you tried to kill me, as angel of the lord, i hereby declare your sins forgiven, as long as you maintain the integrity of your promise.";
+			specialname = "Exit_Normal";
+			arg0 = 0;
+		}
+
+		goodbye = "[this ends the conversation. i have to put this here because doom :\\]";
+	}
+}
+
 // Gags
 
 conversation // Rob Carter gag

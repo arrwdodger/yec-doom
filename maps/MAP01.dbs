@@ -38,9 +38,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = true;
-		viewpositionx = -4130.8f;
-		viewpositiony = -1808.596f;
-		viewscale = 0.1378583f;
+		viewpositionx = -15005.62f;
+		viewpositiony = -7751.112f;
+		viewscale = 1.900493f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -51,7 +51,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 512;
+			gridsize = 64;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -94,10 +94,10 @@ maps
 				controlsectorarea
 				{
 					usecustomtagrange = false;
-					outerleft = 31744;
-					outerright = 32256;
-					outertop = 32256;
-					outerbottom = 31744;
+					outerleft = -2048;
+					outerright = -1536;
+					outertop = 1536;
+					outerbottom = 1024;
 				}
 			}
 		}
