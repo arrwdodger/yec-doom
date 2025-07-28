@@ -4,6 +4,7 @@ Model DapperDoorL
    Model 0 "DAPPERDOORL.obj"
    SurfaceSkin 0 0 "DAPPERDOORL.png"
    SurfaceSkin 0 1 "DAPPERDOORTRIM.png"
+   Scale 1.0 1.0 1.2
 
    FrameIndex DDLL A 0 0
 }
@@ -14,6 +15,7 @@ Model DapperDoorR
    Model 0 "DAPPERDOORR.obj"
    SurfaceSkin 0 0 "DAPPERDOORR.png"
    SurfaceSkin 0 1 "DAPPERDOORTRIM.png"
+   Scale 1.0 1.0 1.2
 
    FrameIndex DDRR A 0 0
 }
