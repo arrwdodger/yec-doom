@@ -259,3 +259,42 @@ conversation // Human evolution gag
 		goodbye = "ok";
 	}
 }
+
+conversation // Noah's Ark fragment gag
+{
+	id = 6;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "the last remaining fragment of the real noah's ark. this piece was discovered by kent hovind at a missouri home depot. it is in remarkable condition.";
+		goodbye = "ok";
+	}
+}
+
+conversation // Oldest rock gag
+{
+	id = 7;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "this is the oldest known rock, dated to around 5900 years ago. it was found at the mouth of mauna kea by dr. andrew snelling. despite its age, it shows no signs of damage or cracking.";
+		goodbye = "ok";
+	}
+}
+
+conversation // Abraham's altar gag
+{
+	id = 8;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "the altar that abraham was instructed by god to sacrifice isaac on. at the last second, god commanded abraham to stop the sacrifice, showing how merciful he is towards children in the old testament.";
+		goodbye = "ok";
+	}
+}
