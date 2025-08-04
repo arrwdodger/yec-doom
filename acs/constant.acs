@@ -41,6 +41,7 @@
 
 #define DAPPERTHEME "DAPPERTHEME" // Sound name string of the Dapper Dinosaur theme song
 #define DSAREA "DSAREA" // Sound name string of the Dark Souls area title gag sting
+#define FLUSH "FLUSH" // Sound name string of the flush sound effect gag
 
 // Sector IDs
 

@@ -25,7 +25,7 @@ Model Toilet
    Path "models/toilet"
    Model 0 "toilet.obj"
    SurfaceSkin 0 0 "toilet_c.png"
-   Scale 1.0 1.0 1.2
+   Scale 1.0 1.0 1.0
 
    FrameIndex TTTT A 0 0
 }

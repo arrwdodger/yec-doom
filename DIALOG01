@@ -298,3 +298,16 @@ conversation // Abraham's altar gag
 		goodbye = "ok";
 	}
 }
+
+conversation // Babel brick gag
+{
+	id = 9;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "sign";
+		dialog = "a brick from the tower of babel. before its destruction, everyone in the whole world spoke proto-pre-ante-pseudo-non-alter-quantum-american-yiddish. because god has not destroyed any tower since, it's height must have been enormous.";
+		goodbye = "ok";
+	}
+}

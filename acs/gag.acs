@@ -51,7 +51,20 @@ Script "GAG_DAPPER" (int lineID, int leftActorMoverID, int rightActorMoverID) //
     Line_SetBlocking(lineID, 0, BLOCKF_EVERYTHING);
 }
 
-function void DSAreaFunc(int name)
+Script "GAG_TOILET" (int id, int fountainID) // Legally mandated toilet flushing gag
+{
+    PlaySound(id, FLUSH);
+    Delay(32);
+
+    int pos[3] = {GetActorX(fountainID), GetActorY(fountainID), GetActorZ(fountainID)};
+
+    for (int i = 0; i < 32; i++)
+    {
+        SpawnParticle(0x1982b1, FALSE, Random(35, 55), 4, pos[0], pos[1], pos[2], Random(-1.0, 1.0), Random(-1.0, 1.0), Random(2.0, 4.0), 0.0, 0.0, -0.5, 255, 0);
+    }
+}
+
+function void DSAreaFunc(int name) // Dark Souls area name all in one, easy-to-use function
 {
     HudMessage(s:name; HUDMSG_FADEINOUT, 0, CR_UNTRANSLATED, DSAREA_X, DSAREA_Y, DSAREA_HOLDTIME, DSAREA_FADETIME, DSAREA_FADETIME);
 }
