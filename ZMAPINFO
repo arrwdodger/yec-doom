@@ -57,11 +57,22 @@ intermission outro_02
 
 intermission outro_03
 {
+    Link = outro_04
     TextScreen
     {
         Background = "SLIME16", 1
         Music = "D_READ_M"
         TextLump = "text/outro_03"
+    }
+}
+
+intermission outro_04
+{
+    TextScreen
+    {
+        Background = "SLIME16", 1
+        Music = "D_READ_M"
+        TextLump = "text/outro_04"
     }
 }
 

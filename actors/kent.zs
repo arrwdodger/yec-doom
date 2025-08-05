@@ -15,7 +15,7 @@ class Kent : Actor
     states
     {
         spawn:
-            KENT A 1;
+            KENT ABCDCB 10;
             loop;
     }
 }
