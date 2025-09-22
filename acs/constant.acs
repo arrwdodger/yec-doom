@@ -79,10 +79,6 @@
 #define KENT_ARENA_INVINCIBLESPAWN 220 // The MapSpot(s) where the invincibility powerup spawns in the Kent arena
 #define KENT_ARENA_ENEMYID 1000 // The ID all the enemies have in the Kent arena
 
-// Class Strings, because ACS is acting weird with strings and they only work in here :/
-
-#define DEMON "Demon"
-
 // Misc Strings, because ACS is acting weird with strings and they only work in here :/
 
 #define GOULD_EULOGY "here lies gould\nmay his quotes serve a greater purpose" // A thoughtful eulogy for Stephen J. Gould
