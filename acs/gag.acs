@@ -64,7 +64,22 @@ Script "GAG_TOILET" (int id, int fountainID) // Legally mandated toilet flushing
     }
 }
 
-function void DSAreaFunc(int name) // Dark Souls area name all in one, easy-to-use function
+Script "GAG_MADEYOULOOK" (int lookTarget, int spawnTarget) // Tricks the player into looking behind them but spawns in a monster instead
+{
+    HudMessage(s:SECRET_LOOKBEHINDYOU; HUDMSG_PLAIN, 1, CR_UNTRANSLATED, 0.5, 0.35, 5.0);
+    until (CheckSight(0, lookTarget, 0) && GetActorAngle(0) - VectorAngle(GetActorX(lookTarget) - GetActorX(0), GetActorY(lookTarget) - GetActorY(0)) < 32)
+    {
+        Delay(10);
+    }
+    HudMessage(s:HAHAHA; HUDMSG_PLAIN, 1, CR_UNTRANSLATED, 0.5, 0.35, 5.0);
+    until (CheckSight(0, spawnTarget, 0) && GetActorAngle(0) - VectorAngle(GetActorX(spawnTarget) - GetActorX(0), GetActorY(spawnTarget) - GetActorY(0)) < 32)
+    {
+        Delay(10);
+    }
+    SpawnSpot(s:DEMON, spawnTarget);
+}
+
+function void DSAreaFunc(int name) // Dark Souls area name; all in one, easy-to-use function
 {
     HudMessage(s:name; HUDMSG_FADEINOUT, 0, CR_UNTRANSLATED, DSAREA_X, DSAREA_Y, DSAREA_HOLDTIME, DSAREA_FADETIME, DSAREA_FADETIME);
 }

@@ -2,3 +2,4 @@
 #include "actors/dapper.zs"
 #include "actors/kent.zs"
 #include "actors/toilet.zs"
+#include "actors/21stcenturyskybox.zs"

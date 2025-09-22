@@ -5,9 +5,13 @@ I am not a lawyer, this is just a dumb DOOM mod, so I may have messed this up.
 Original code is licensed under the GNU GPL where applicable (see COPYING).
 Original art is licesned under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International where applicable: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-TEXTURES:
+///////////
+//TEXTURES:
+///////////
 
-Stock textures from Realm667 (https://www.realm667.com/):
+/
+/Stock textures from Realm667 (https://www.realm667.com/):
+/
 
 2mbrown.wad
     Conversion: Tormentor667
@@ -55,7 +59,9 @@ UDET.wad
     Author: Enjay, Nightmare, Malinku, EarthQuake
     Submitted: Malinku
 
-Original textures:
+/
+/Original textures:
+/
 
 BENTMEME (this one is CC0, I just decided that right now)
 DAPPERDOORL.png
@@ -72,7 +78,9 @@ KENTB0
 KENTC0
 KENTD0
 
-MUSIC:
+////////
+//MUSIC:
+////////
 
 BENTSONG is:
     (C) Bent Hovind "no relation"
@@ -82,7 +90,9 @@ CATMUS is:
     The Era of Byzantion - Byzantine Hymns, Vol. 5
     https://www.youtube.com/watch?v=mJu8iYA4vds
 
-SOUNDS:
+/////////
+//SOUNDS:
+/////////
 
 DSAREA is:
     (C) From Software, 2011, 2018
@@ -90,6 +100,27 @@ DSAREA is:
 DAPPERTHEME is:
     (C) Dapper Dinosaur
 
-Original sounds:
+/
+/Original sounds:
+/
 
 FLUSH
+
+//////////////////////
+//ENTITIES AND ACTORS:
+//////////////////////
+
+[file.zs // ClassName]
+
+21stcenturyskybox.zs // ParallaxingSkyViewpoint is: Written by inkoalawetrust, original base code written by DrPyspy, however [they've] modified it so much that barely anything remains from DrPyspy.
+Map spot sprite/graphic made by Tabijaky
+
+/
+/Original entities and actors:
+/
+
+dapper.zs // Dapper
+dapperdoors.zs // DapperDoorL
+dapperdoors.zs // DapperDoorR
+kent.zs // Kent
+toilet.zs // Toilet

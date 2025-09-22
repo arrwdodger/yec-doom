@@ -311,3 +311,81 @@ conversation // Babel brick gag
 		goodbye = "ok";
 	}
 }
+
+conversation // Gutsick Gibbon brig gag
+{
+	id = 10;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "gutsick gibbon";
+		dialog = "200 hydrogen bombs per cubic kilometer!";
+		goodbye = "seems hot";
+	}
+}
+
+conversation // Dan McClellan brig gag
+{
+	id = 11;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "dan mcclellan";
+		dialog = "grow the hell up!";
+		goodbye = "bit harsh innit?";
+	}
+}
+
+conversation // Creation Myths (Dan Stern Cardinale) brig gag
+{
+	id = 12;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "dan \"creation myths\" cardinale";
+		dialog = "don't get fooled!";
+		goodbye = "that's some good advice";
+	}
+}
+
+conversation // Kipp Davis brig gag
+{
+	id = 13;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "kipp davis";
+		dialog = "read the fucking text!!!!!!!!";
+		goodbye = "ok, fine; please stop yelling at me";
+	}
+}
+
+conversation // Paulogia brig gag
+{
+	id = 14;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "paulogia";
+		dialog = "i'm a former christian.";
+		goodbye = "ok, whatever";
+	}
+}
+
+conversation // Vishanti brig gag
+{
+	id = 15;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "vishanti";
+		dialog = "reddit athiests ate my dog!";
+		goodbye = "damn, that sucks";
+	}
+}

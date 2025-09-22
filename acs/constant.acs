@@ -79,11 +79,16 @@
 #define KENT_ARENA_INVINCIBLESPAWN 220 // The MapSpot(s) where the invincibility powerup spawns in the Kent arena
 #define KENT_ARENA_ENEMYID 1000 // The ID all the enemies have in the Kent arena
 
+// Class Strings, because ACS is acting weird with strings and they only work in here :/
+
+#define DEMON "Demon"
+
 // Misc Strings, because ACS is acting weird with strings and they only work in here :/
 
 #define GOULD_EULOGY "here lies gould\nmay his quotes serve a greater purpose" // A thoughtful eulogy for Stephen J. Gould
 #define ARK_LOCKED "a power beyond your comprehension has sealed the ark" // Tells the player that entrance to the Ark is forbidden
 #define SECRET_LOOKBEHINDYOU "look behind you" // Tells the player to look behind them
+#define HAHAHA "haha, made you look" // Taunts the player when they turn around
 
 #define FWATER1 "FWATER1" // Calls the FWATER1 flat
-#define GATE4 "GATE4" // Calls the GATE4 flat
+//#define GATE4 "GATE4" // Calls the GATE4 flat
