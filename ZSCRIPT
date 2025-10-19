@@ -3,3 +3,4 @@
 #include "actors/kent.zs"
 #include "actors/toilet.zs"
 #include "actors/21stcenturyskybox.zs"
+#include "actors/hydroplant.zs"

@@ -389,3 +389,120 @@ conversation // Vishanti brig gag
 		goodbye = "damn, that sucks";
 	}
 }
+
+conversation // Jeffery Tompkins office plaque gag
+{
+	id = 16;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "jeffrey tompkins\nlead ark engineer and mathematics consultant";
+		goodybe = "ok";
+	}
+}
+
+conversation // Andrew Snelling office plaque gag
+{
+	id = 17;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "andrew \"andy\" snelling\nsenior geologist";
+		goodybe = "ok";
+	}
+}
+
+conversation // Kent Hovind office plaque gag
+{
+	id = 18;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "kent \"dr. dino\" hovind\npresident, ceo, captain, and all-around smart guy";
+		goodybe = "ok";
+	}
+}
+
+conversation // Peon office plaque gag
+{
+	id = 19;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "various unimportant peons";
+		goodybe = "ok";
+	}
+}
+
+conversation // Scroll gag
+{
+	id = 20;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "the earliest copy of genesis, dated to around 1500 BC. Despite the age, the text is word-for-word identical to our contemporary copies of genesis.";
+		goodbye = "ok";
+	}
+}
+
+conversation // Ark model gag
+{
+	id = 21;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "a scale model of noah's ark. imagine the turbulant waters that noah and his family had to face and how scared they were. noah's faith in god protected the ark from all harm.";
+		goodbye = "ok";
+	}
+}
+
+conversation // Gould library gag
+{
+	id = 22;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "gould quotes";
+		goodbye = "ok";
+	}
+}
+
+conversation // Darwin library gag
+{
+	id = 23;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "darwin quotes";
+		goodbye = "ok";
+	}
+}
+
+conversation // YEC library gag
+{
+	id = 24;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "yec scientific literature";
+		goodbye = "ok";
+	}
+}

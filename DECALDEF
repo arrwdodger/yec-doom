@@ -22,3 +22,8 @@ decal Scribble 5
 {
     pic DECAL_SIGN
 }
+
+decal Plaque 6
+{
+	pic DECAL_PLAQUE
+}

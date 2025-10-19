@@ -4,6 +4,7 @@ defaultmap
     NoCrouch
     NoFreelook
     NoInfighting
+    LaxMonsterActivation
 }
 
 episode ENTER
@@ -89,6 +90,7 @@ DoomEdNums
 	13503 = Kent
     13506 = Dapper
     13509 = Toilet
+    13512 = Hydroplant
 	
 	18374 = ParallaxingSkyViewpoint
 }
