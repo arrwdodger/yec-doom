@@ -4,3 +4,4 @@
 #include "actors/toilet.zs"
 #include "actors/21stcenturyskybox.zs"
 #include "actors/hydroplant.zs"
+#include "actors/car.zs"

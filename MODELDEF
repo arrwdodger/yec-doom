@@ -29,3 +29,13 @@ Model Toilet
 
    FrameIndex TTTT A 0 0
 }
+
+Model Car
+{
+   Path "models/car"
+   Model 0 "car.obj"
+   SurfaceSkin 0 0 "CAR_C.png"
+   Scale 1.0 1.0 1.0
+
+   FrameIndex CCCC A 0 0
+}

@@ -1,0 +1,14 @@
+# Blender 4.5.3 LTS MTL File: 'covered_car_8k_arrwdodger.blend'
+# www.blender.org
+
+newmtl covered_car
+Ka 1.000000 1.000000 1.000000
+Ks 0.300000 0.300000 0.300000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/arrwdodger/Models/stock/cars/car_covered/covered_car_8k.blend/textures/covered_car_diff_8k.jpg
+map_Ns /home/arrwdodger/Models/stock/cars/car_covered/covered_car_8k.blend/textures/covered_car_rough_8k.exr
+map_refl /home/arrwdodger/Models/stock/cars/car_covered/covered_car_8k.blend/textures/covered_car_metal_8k.exr
+map_Bump -bm 1.000000 /home/arrwdodger/Models/stock/cars/car_covered/covered_car_8k.blend/textures/covered_car_nor_gl_8k.exr

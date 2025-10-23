@@ -506,3 +506,16 @@ conversation // YEC library gag
 		goodbye = "ok";
 	}
 }
+
+conversation // Soft tissue gag
+{
+	id = 25;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "fresh blood from a dead tyranosaurus rex. discovered by fellow christian mary schweitzer, this specimen is a testament to the recency of dinosaurs and the young earth.";
+		goodbye = "ok";
+	}
+}
