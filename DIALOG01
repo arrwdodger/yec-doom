@@ -180,7 +180,22 @@ conversation
 	{
 		pagename = "conversation_kent_end_01";
 		name = "kent hovind";
-		dialog = "oh i have failed! my whole life has been a waste, and i feel my end is near.\n\nhark, i have received a vision! i see the grave upon which my name is written; cold, alone, forgotten; my name fading from the collective memory; every man, woman, and child scorning my legacy; and you, an angel of the lord, have come to pass judgement upon me! oh spirit! tell me these visions are yet maleable, that time still graces me enough to right my wrongs however much i can in what little life i have left. spirit, hear me! i am not the man i was. i will not be the man i have been but for this intercourse! why show me this, if i am past all hope?";
+		dialog = "oh i have failed! my whole life has been a waste, and i feel my end is near. my trust in god has led me to ruin! a sick joke is what it is. how could god toy with me as such? what has he to gain? my misery? my folley? i am not even worth the dirt beneath my feet. if you intend to end me here, within my very own house of worship, i will fault you none. never have i felt myself a more wretched being.\n\na voice...\n\nfrom beyond...?";
+
+		choice
+		{
+			text = "...";
+			nextpage = "conversation_kent_end_02";
+		}
+
+		goodbye = "[end conversation]";
+	}
+
+	page
+	{
+		pagename = "conversation_kent_end_02";
+		name = "kent hovind";
+		dialog = "...hark, i have received a vision! i see the grave upon which my name is written; cold, alone, forgotten; my name fading from the collective memory; every man, woman, and child scorning my legacy; and you, an angel of the lord, have come to pass judgement upon me! the hundreds and thousands of damaged souls cloud my mind with remorse! oh spirit, tell me these visions are yet maleable, that time still graces me enough to right my wrongs however much i can in what little life i have left. spirit, hear me! i am not the man i was. i will not be the man i have been but for this intercourse! why show me this, if i am past all hope?";
 
 		choice
 		{
@@ -189,7 +204,7 @@ conversation
 			arg0 = 0;
 		}
 
-		goodbye = "[this ends the conversation. i have to put this here because doom :\\]";
+		goodbye = "[end conversation]";
 	}
 }
 
@@ -399,7 +414,7 @@ conversation // Jeffery Tompkins office plaque gag
 	{
 		name = "plaque";
 		dialog = "jeffrey tompkins\nlead ark engineer and mathematics consultant";
-		goodybe = "ok";
+		goodbye = "ok";
 	}
 }
 
@@ -412,7 +427,7 @@ conversation // Andrew Snelling office plaque gag
 	{
 		name = "plaque";
 		dialog = "andrew \"andy\" snelling\nsenior geologist";
-		goodybe = "ok";
+		goodbye = "ok";
 	}
 }
 
@@ -425,7 +440,7 @@ conversation // Kent Hovind office plaque gag
 	{
 		name = "plaque";
 		dialog = "kent \"dr. dino\" hovind\npresident, ceo, captain, and all-around smart guy";
-		goodybe = "ok";
+		goodbye = "ok";
 	}
 }
 
@@ -438,7 +453,7 @@ conversation // Peon office plaque gag
 	{
 		name = "plaque";
 		dialog = "various unimportant peons";
-		goodybe = "ok";
+		goodbye = "ok";
 	}
 }
 

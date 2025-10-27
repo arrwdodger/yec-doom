@@ -1,26 +1,20 @@
+credits
 
-stock assets from realm667:
-
-2mbrown.wad = ives "hfx" allaire, frank "pox" et al
-cage_tex.wad = cage
-cagetex2.wad = cage, fox666, neuralstunner
-d1gfxd2.wad = id software
-decontex.wad = stecki
-dgdbtxtr.wad = david gevert
-doompotpourri.wad = fuzzballfox, enjay et al
-nb_flats.wad = nick baker
-nmtext2.wad = nightmare
-noirpack.wad = fuzzballfox, thegreenherring
-udet.wad = enjay, nightmare, malinku, earthquake
+various stock assets = (c) realm667
 
 music:
 
 bentsong = (c) bent hovind "no relation"
 catmus = (c) the greek byzantine choir
+readandw = (c) andrew hulshult, id software
 
 sounds:
 
 dsarea = (c) from software
 dappertheme = (c) dapper dinosaur
+
+models:
+
+car = (c) mp (polyhaven)
 
 check the "credits" file for further attribution
