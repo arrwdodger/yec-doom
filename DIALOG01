@@ -171,7 +171,7 @@ conversation // Kent Hovind realizing his dreams are crumbling to dust
 	}
 }
 
-conversation
+conversation // Kent Hovind's speech upon defeat
 {
 	id = 696;
 	actor = "Kent";
@@ -205,6 +205,20 @@ conversation
 		}
 
 		goodbye = "[end conversation]";
+	}
+}
+
+conversation // Kent Hovind's mania during the fight
+{
+	id = 687;
+	actor = "Kent";
+	
+	page
+	{
+		pagename = "conversation_kent_mania";
+		name = "kent hovind";
+		dialog = "hear me, o lord of evil, and banish this creature to the depths!";
+		goodbye = "good luck with that";
 	}
 }
 
@@ -347,7 +361,7 @@ conversation // Dan McClellan brig gag
 
 	page
 	{
-		name = "dan mcclellan";
+		name = "dan mcclellan";dialog = "
 		dialog = "grow the hell up!";
 		goodbye = "bit harsh innit?";
 	}
