@@ -1,0 +1,15 @@
+YEC.pk3 is a small, young earth creationist themed DOOM mod made for Dapper Dinosaur on YouTube.
+
+This .pk3 file is a zip archive containing every asset in the DOOM mod. Outside of needing to install GZDoom, it is completely self contained.
+
+There is also an optional .ini file with my preferred settings for this mod if you are in a hurry (it's mostly just making the graphics look better because GZDoom has, let's say, interesting choices for default graphics settings).
+
+To use this file, place it in your GZDoom base directory, wherever you have it installed (it is the folder with gzdoom.exe). Then, launch GZDoom, choose Doom 2: Hell on Earth as the iwad, and put this into the launch parameters field at the bottom:
+
+-file YEC.pk3
+
+If you do not have DOOM II: Hell on Earth or are missing DOOM2.WAD, the easiest way to get it is by purchasing the DOOM + DOOM II collection on Steam. GZDoom will automatically find those WADs (or, at least, I hope it does). Otherwise, Google is your friend.
+
+If you want to use my custom .ini file, then put it into the same directory as gzdoom.exe, just like the other file. GZDoom will automatically load this config file because of its name. If you already have a gzdoom_portable.ini in your base directory, then you can either delete it or move it to another location temporarily. To stop using my custom .ini file, you can delete it or move it somewhere else.
+
+In the main menu, choose NEW GAME and then YEC DOOM to start the mod.
