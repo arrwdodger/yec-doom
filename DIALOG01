@@ -125,7 +125,7 @@ conversation // Kent Hovind congratulating the player on defeating Dapper Dinosa
 	{
 		pagename = "conversation_kent_congratulations_ark";
 		name = "kent hovind";
-		dialog = "my divination has revealed to me the power source's destruction, and i can no longer sense its presence. your bravery has turned the tide of battle in my favor, and for that i thank you. now, enter the ark, for the seal has been broken, and dispatch the demons within. be warned, you will need a keycard to launch the ark. i'm sure there is a spare one... somewhere.";
+		dialog = "my divination has revealed to me the power source's destruction, and i can no longer sense its presence. your bravery has turned the tide of battle in my favor, and for that i thank you. now, enter the ark, for the seal has been broken, and dispatch the demons within. be warned, you will need a keycard to launch the ark from the bunker near the docks. i'm sure there is a spare one... somewhere.";
 		goodbye = "sure.";
 	}
 }
