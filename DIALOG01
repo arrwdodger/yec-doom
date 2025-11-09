@@ -361,7 +361,7 @@ conversation // Dan McClellan brig gag
 
 	page
 	{
-		name = "dan mcclellan";dialog = "
+		name = "dan mcclellan";
 		dialog = "grow the hell up!";
 		goodbye = "bit harsh innit?";
 	}
@@ -545,6 +545,19 @@ conversation // Soft tissue gag
 	{
 		name = "plaque";
 		dialog = "fresh blood from a dead tyranosaurus rex. discovered by fellow christian mary schweitzer, this specimen is a testament to the recency of dinosaurs and the young earth.";
+		goodbye = "ok";
+	}
+}
+
+conversation // Car analogies library gag
+{
+	id = 26;
+	actor = "MapSpot";
+
+	page
+	{
+		name = "plaque";
+		dialog = "car analogies";
 		goodbye = "ok";
 	}
 }
