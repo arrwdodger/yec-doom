@@ -80,11 +80,22 @@ intermission outro_04
 
 intermission outro_05
 {
+    Link = outro_corruption
     TextScreen
     {
         Background = "SLIME16", 1
         Music = "READANDW"
         TextLump = "text/outro_05"
+    }
+}
+
+intermission outro_corruption
+{
+    TextScreen
+    {
+        Background = "SLIME16", 1
+        Music = "READANDW"
+        TextLump = "text/outro_corruption"
     }
 }
 
