@@ -110,13 +110,16 @@ FLUSH
 //MODELS:
 /////////
 
-covered car is: MP on PolyHaven
+covered car is:
+    MP on PolyHaven
 
 /
 /Original models:
 /
 
 toilet
+DAPPERDOORR
+DAPPERDOORL
 
 //////////////////////
 //ENTITIES AND ACTORS:
@@ -124,8 +127,8 @@ toilet
 
 [file.zs // ClassName]
 
-21stcenturyskybox.zs // ParallaxingSkyViewpoint is: Written by inkoalawetrust, original base code written by DrPyspy, however [they've] modified it so much that barely anything remains from DrPyspy.
-Map spot sprite/graphic made by Tabijaky
+21stcenturyskybox.zs // ParallaxingSkyViewpoint is:
+    Written by inkoalawetrust, original base code written by DrPyspy, however [they've] modified it so much that barely anything remains from DrPyspy. Map spot sprite/graphic made by Tabijaky
 
 /
 /Original entities and actors:
